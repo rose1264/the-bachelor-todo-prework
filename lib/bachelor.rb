@@ -23,6 +23,7 @@ def count_contestants_by_hometown(data, hometown)
       if person["hometown"] = hometown
         count++
       end
+    end
   end
   count
 end
